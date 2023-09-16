@@ -1,4 +1,4 @@
-![age-calculator-app](https://github.com/kokenydaniel/Age-Calculator-App/assets/129154129/ba017200-8c31-43c6-aea8-720d15702888)
+![age-calculator-app](https://github.com/kokenydaniel/Age-calculator-app-frontendmentor/assets/129154129/ea2ab5a0-5ea6-449b-98a8-0c2a93397aba)
 
 <h1 align="center">Age calculator app - Frontend mentor </h1>
 

@@ -2,7 +2,7 @@
 
 <h1 align="center">Age calculator app - Frontend mentor </h1>
 
-### <h3 align="center"> [Live]() | [Solution]() | [Challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) </h3>
+### <h3 align="center"> [Live](https://kokenydaniel.github.io/Age-calculator-app-frontendmentor/) | [Solution](https://www.frontendmentor.io/solutions/age-calculator-app-solution-uWhps26ARQ) | [Challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) </h3>
 
 #### <p align="center">Solution for a challenge from [frontendmentor.io.](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) </p>
 

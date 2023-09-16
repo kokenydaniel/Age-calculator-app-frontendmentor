@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--Off-white);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: var(--White);
+  padding: 40px;
+  border-radius: 20px;
+  border-bottom-right-radius: 170px;
+  width: 650px;
+}
+
+.dates {
+  display: flex;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.date label {
+  font-size: 12px;
+  color: var(--Smokey-grey);
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+input {
+  font-size: 32px;
+  width: 130px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--Light-grey);
+}
+
+input::placeholder {
+  color: var(--Smokey-grey);
+}
+
+#errorField {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  color: var(--Light-red);
+  text-transform: none;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: var(--Light-grey);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+svg {
+  background: var(--Purple);
+  padding: 15px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 1/1;
+}
+
+svg:hover {
+  cursor: pointer;
+  background-color: rgba(133, 77, 255, 0.9);
+  box-shadow: 0px 0px 10px 1px var(--Light-grey);
+}
+
+svg:active {
+  cursor: pointer;
+  background-color: rgba(133, 77, 255, 0.9);
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2;
+}
+
+h1 span {
+  color: var(--Purple);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    padding: 50px 20px;
+    width: 80%;
+    border-bottom-right-radius: 100px;
+  }
+
+  .date {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .date label {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  input {
+    font-size: 20px;
+    width: 80px;
+  }
+
+  .separator {
+    margin: 20px 0;
+  }
+
+  .rightLine {
+    width: 100%;
+    height: 2px;
+    background: var(--Light-grey);
+  }
+  
+  svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
